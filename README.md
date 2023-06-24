@@ -34,6 +34,6 @@ docker exec -u 0 -it 557c4a24ff3f bash
 
 usermod -aG docker jenkins
 
-#run docker from normal user
+#run docker from normal user add below permission 
 
 sudo chmod 666 /var/run/docker.sock
