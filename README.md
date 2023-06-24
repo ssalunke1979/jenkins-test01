@@ -3,6 +3,8 @@
 #Jenkins on docker
 
 ##########build docker image
+
+
 FROM jenkins/jenkins:lts
 USER root
 RUN apt-get update && \
